@@ -4,7 +4,7 @@
 JavaScript, HTML, CSS.
 
 ### Purpose 
-Built for fun. Inspired by Jonas Schmedtmann, though I slightly changed idea.
+Built for fun. Inspired by Jonas Schmedtmann, though I slightly changed rules.
 
 ### See live page
 <a href="https://learnfl.github.io/proj-web-guess-my-number" target="_blank">Try the game</a>
