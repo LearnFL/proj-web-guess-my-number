@@ -54,6 +54,9 @@ document.querySelector('.check').addEventListener('click', function () {
     console.log(
       `Good thinking to check the Console, the number is: ${number_to_guess}`
     );
+
+    document.querySelector('.message').textContent = 'Start guessing...';
+    document.querySelector('.message').style.color = 'white';
   } else {
     // If did not guess
     if (
@@ -67,6 +70,20 @@ document.querySelector('.check').addEventListener('click', function () {
       }, 1000);
       attempt += 1;
       document.querySelector('.score').textContent = attempt;
+
+      switch (true) {
+        case Number(document.querySelector('.guess').value) > number_to_guess:
+          document.querySelector('.message').textContent = 'Too High!';
+          document.querySelector('.message').style.color = '#FAF4B7';
+          break;
+        case Number(document.querySelector('.guess').value) < number_to_guess:
+          document.querySelector('.message').textContent = 'Too Low!';
+          document.querySelector('.message').style.color = '#FAF4B7';
+          break;
+        default:
+          document.querySelector('.message').textContent = 'Start guessing...';
+          document.querySelector('.message').style.color = 'white';
+      }
     } else {
       document.querySelector('.alert').style.visibility = 'visible';
       setTimeout(() => {
