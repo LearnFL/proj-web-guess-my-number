@@ -4,7 +4,7 @@
 JavaScript, HTML, CSS.
 
 ### Purpose 
-Built for fun. Inspired by Idea belongs to Jonas Schmedtmann.
+Built for fun. Inspired by Jonas Schmedtmann.
 
 ### See live page
 [visit the page](https://learnfl.github.io/proj-web-guess-my-number/)
