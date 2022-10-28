@@ -24,7 +24,7 @@ document.querySelector('.check').addEventListener('click', function () {
     number_to_guess === Number(document.querySelector('.guess').value)
   ) {
     document.body.style.backgroundColor = 'green';
-
+    document.querySelector('.message').textContent = 'Correct 🥳';
     document.querySelector('.number').textContent =
       document.querySelector('.guess').value;
 
@@ -73,11 +73,11 @@ document.querySelector('.check').addEventListener('click', function () {
 
       switch (true) {
         case Number(document.querySelector('.guess').value) > number_to_guess:
-          document.querySelector('.message').textContent = 'Too High!';
+          document.querySelector('.message').textContent = '📈 Too High!';
           document.querySelector('.message').style.color = '#FAF4B7';
           break;
         case Number(document.querySelector('.guess').value) < number_to_guess:
-          document.querySelector('.message').textContent = 'Too Low!';
+          document.querySelector('.message').textContent = '📉 Too Low!';
           document.querySelector('.message').style.color = '#FAF4B7';
           break;
         default:
