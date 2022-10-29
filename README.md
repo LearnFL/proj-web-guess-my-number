@@ -1,7 +1,8 @@
 # Guess My Number
 
 ### Process
-JavaScript, HTML, CSS.
+JavaScript, HTML, CSS. </br>
+When you have to access elements repetedly to change values or properties, it makes sense to assign `document.querrySelector('')` to a variable to make job easier and to keep code clean. 
 
 ### Purpose 
 Built for fun. Inspired by Jonas Schmedtmann, though I slightly changed rules.
