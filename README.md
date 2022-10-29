@@ -1,7 +1,7 @@
 # Guess My Number
 
 ### Process
-JavaScript, HTML, CSS. 
+JavaScript, HTML, CSS. Must use large screen, project is not optimized for mobile as it was not a part of an objective.
 
 ### Purpose 
 Built for fun. Inspired by Jonas Schmedtmann, though I slightly changed rules.
