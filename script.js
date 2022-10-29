@@ -23,7 +23,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.guess').value &&
     number_to_guess === Number(document.querySelector('.guess').value)
   ) {
-    document.body.style.backgroundColor = 'green';
+    document.body.style.backgroundColor = '#59CE8F';
     document.querySelector('.message').textContent = 'Correct 🥳';
     document.querySelector('.number').textContent =
       document.querySelector('.guess').value;
@@ -64,7 +64,7 @@ document.querySelector('.check').addEventListener('click', function () {
       Number(document.querySelector('.guess').value) > 0 &&
       Number(document.querySelector('.guess').value) <= 20
     ) {
-      document.body.style.backgroundColor = 'red';
+      document.body.style.backgroundColor = '#F05454';
       setTimeout(() => {
         document.body.style.backgroundColor = '#222';
       }, 1000);
