@@ -4,7 +4,7 @@
 JavaScript, HTML, CSS. Must use large screen, project is not optimized for mobile as it was not a part of an objective.
 
 ### Purpose 
-Built for fun. Inspired by Jonas Schmedtmann, though I slightly changed rules.
+Built for fun. Inspired by Jonas Schmedtmann, implementation is mine and I slightly changed rules of the game.
 
 ### See live page
 <a href="https://learnfl.github.io/proj-web-guess-my-number" target="_blank">Try the game</a>
